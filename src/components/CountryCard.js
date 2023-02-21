@@ -13,7 +13,7 @@ export default function CountryCard({ country }) {
         marginBottom: "20px",
       }}
     >
-      <img src={country.flag} alt={country.name} width="200px"/>
+      <img src={country.flag} alt={country.name} width="200px" />
       <h1>{country.name}</h1>
       <span style={{ fontSize: "27px" }}>
         <b>Capital:</b> {country.capital}
